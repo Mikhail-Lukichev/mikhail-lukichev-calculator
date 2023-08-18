@@ -10,4 +10,5 @@ public class MikhailLukichevCalculatorApplication {
 		SpringApplication.run(MikhailLukichevCalculatorApplication.class, args);
 	}
 
+
 }

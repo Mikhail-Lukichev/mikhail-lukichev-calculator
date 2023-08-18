@@ -12,7 +12,6 @@ public class CalculatorController {
     }
 
     @GetMapping(path="/calculator")
-
     public String greeting() {
         return calculatorService.greeting();
     }
@@ -60,5 +59,4 @@ public class CalculatorController {
         }
         return calculatorService.divide(num1,num2);
     }
-
 }
