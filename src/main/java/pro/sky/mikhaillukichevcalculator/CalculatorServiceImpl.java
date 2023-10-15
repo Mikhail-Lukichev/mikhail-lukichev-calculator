@@ -5,7 +5,13 @@ import org.springframework.stereotype.Service;
 @Service
 public class CalculatorServiceImpl implements CalculatorService {
     public String greeting() {
-        return "Welcome to calculator!";
+        return "Welcome to calculator!<br>" +
+                "Replace xxx with the numbers to get the results.<br>" +
+                "You can use the following commands:<br>" +
+                "Summarize: /calculator/plus?num1=xxx&num2=xxx<br>" +
+                "Subtract: /calculator/minus?num1=xxx&num2=xxx<br>" +
+                "Multiple: /calculator/multiply?num1=xxx&num2=xxx<br>" +
+                "Divide: /calculator/divide?num1=xxx&num2=xxx";
     }
 
     public String summarize(int num1, int num2) {
