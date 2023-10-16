@@ -1,4 +1,4 @@
-package pro.sky.mikhaillukichevcalculator;
+package pro.sky.mikhaillukichevcalculator.service;
 
 public interface CalculatorService {
     String greeting();
